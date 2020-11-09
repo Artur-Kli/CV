@@ -10,6 +10,7 @@
 
 # production
 /build
+_config.yml
 
 # misc
 .DS_Store
