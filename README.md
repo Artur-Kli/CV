@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Open Artur Klimashevich CV project on firebase [https://artur-cv.web.app](https://artur-cv.web.app).
 
 ## Available Scripts
 
