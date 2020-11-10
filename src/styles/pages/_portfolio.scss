@@ -81,6 +81,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    z-index: 1000;
 
     .project {
       background: $color-2;
@@ -89,6 +90,7 @@
       text-align: center;
       width: 32%;
       max-height: 50%;
+      min-height: 200px;
       padding: .3rem;
       box-shadow: $shadow;
       display: grid;
@@ -220,19 +222,34 @@
     width: 100%;
 
     .radioDisplay {
+      padding: 1rem;
+      
       li {
         font-size: 0.9rem;
       }
     }
-    .project {
-      width: 49% !important;
-      .icons {
-        img {
-          width: 1.4rem;
-          height: 1.4rem;
+    .projects {
+      
+      .project{
+        width: 49% !important;
+        min-height: 200px !important;
+
+        .icons {
+          img {
+            width: 1.4rem;
+            height: 1.4rem;
+          }
+        }
+
+        h3 {
+          font-size: 1.35rem;
+        }
+
+        .infos {
+          font-size: 1.35rem;
         }
       }
-    }
+      }
     .infosContent {
       width: 100% !important;
     }
@@ -240,18 +257,38 @@
 }
 
 @media (max-width: 520px){
-  .radioDisplay {
-    display: none !important;
-  }
   .portfolioContent {
     grid-template-rows: 1fr !important;
-
+    
+    .radioDisplay {
+      display: none !important;
+    }
     .project {
-      grid-template-rows: 30px 40px 80px 40px !important;
+      grid-template-rows: 30px 40px 100px 40px !important;
       width: 98% !important;
-
+      
       img {
         height: 100% !important;
+      }
+      
+    }
+    .infosContent {
+      width: 100% !important;
+
+      .head {
+        flex-direction: column;
+        align-items: center;
+        
+        h2 {
+          margin-bottom: 1rem;
+        }
+
+        .sourceCode {
+          display: flex;
+          justify-content: space-between;
+          text-align: center;
+          
+        }
       }
     }
   }
