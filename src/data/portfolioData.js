@@ -59,4 +59,14 @@ export const portfolioData = [
     info: 'Данный React проект имеет поиск по книгам и добавление товара в корзину. Используемые технологии: Redux, Lodash, Semantic UI.',
     picture: './media/bookstore.png'
   },
+  {
+    id: 6,
+    name: '3D Store',
+    languages: ['Ecommerce'],
+    languagesIcons: ['./media/icons/js.jpg', './media/icons/firebase.svg'],
+    project: 'https://store-3d-effect.web.app',
+    source: 'https://codepen.io/artur-kli/pen/dyXKjXX',
+    info: 'Реализована карточка товара с 3D эффектом',
+    picture: './media/3d-store.png'
+  },
 ]
