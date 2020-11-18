@@ -31,13 +31,13 @@ export const portfolioData = [
   },
   {
     id: 3,
-    name: 'Youtube-clone',
-    languages: ['Diferent','Entertainments'],
-    languagesIcons: ['./media/icons/react.svg', './media/icons/firebase.svg', './media/icons/material_ui.png'],
-    project: 'https://clone-3ab38.web.app/',
-    source: 'https://github.com/Artur-Kli/Youtube-clone',
-    info: 'This React project has multiple pages: Home, Search. I used: React router, useState and Material-ui.',
-    picture: './media/youtube.png'
+    name: 'Data Analytics',
+    languages: ['Diferent','CRM'],
+    languagesIcons: ['./media/icons/react.svg', './media/icons/firebase.svg', './media/icons/redux.svg'],
+    project: 'https://data-analytics-e77c8.firebaseapp.com/analytics',
+    source: 'https://github.com/Artur-Kli/data-analytics',
+    info: 'Платформа с аналитической панелью, панелью навигации, панелью инструментов, которая использует макет сетки, фактически меняя размер под экран.',
+    picture: './media/data-analiytics.png'
   },
   {
     id: 4,
@@ -68,5 +68,15 @@ export const portfolioData = [
     source: 'https://codepen.io/artur-kli/pen/dyXKjXX',
     info: 'Реализована карточка товара с 3D эффектом',
     picture: './media/3d-store.png'
+  },
+  {
+    id: 7,
+    name: 'Youtube-clone',
+    languages: ['Entertainments'],
+    languagesIcons: ['./media/icons/react.svg', './media/icons/firebase.svg', './media/icons/material_ui.png'],
+    project: 'https://clone-3ab38.web.app/',
+    source: 'https://github.com/Artur-Kli/Youtube-clone',
+    info: 'This React project has multiple pages: Home, Search. I used: React router, useState and Material-ui.',
+    picture: './media/youtube.png'
   },
 ]
